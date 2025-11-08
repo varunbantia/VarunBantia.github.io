@@ -7,27 +7,30 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             max-width: 800px;
             margin: 20px auto;
             padding: 0 20px;
-            color: #333;
+            color: #222;
             background-color: #ffffff;
         }
         h1 {
             color: #1A237E;
             text-align: center;
             margin-bottom: 25px;
+            font-size: 2.2em;
         }
         h2 {
             color: #1A237E;
             border-bottom: 2px solid #1A237E;
             padding-bottom: 8px;
-            margin-top: 30px;
+            margin-top: 40px;
+            font-size: 1.8em;
         }
         h3 {
             color: #333;
-            margin-top: 20px;
+            margin-top: 25px;
+            font-size: 1.4em;
         }
         p, li {
             margin-bottom: 12px;
@@ -35,7 +38,7 @@
         }
         strong {
             font-weight: bold;
-            color: #111;
+            color: #000;
         }
         ul {
             padding-left: 20px;
@@ -58,6 +61,7 @@
             color: #555;
             font-style: italic;
             margin-bottom: 25px;
+            font-size: 1.1em;
         }
         .permission-item {
              margin-bottom: 15px;
@@ -67,6 +71,20 @@
             margin-bottom: 3px;
             color: #222;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #eee;
+        }
     </style>
 </head>
 <body>
@@ -74,132 +92,168 @@
         <h1>Privacy Policy for RozgarAI</h1>
         <p class="date"><strong>Last Updated:</strong> November 8, 2025</p>
 
-        <p>RozgarAI ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App"). Please read this policy carefully. By using the App, you consent to the data practices described in this policy.</p>
+        <p>This Privacy Policy ("Policy") explains how Varun Jain ("we," "us," or "our") collects, uses, discloses, and safeguards your information when you use our mobile application, RozgarAI (the "App").</p>
+        <p>By downloading, registering, or using the App, you agree to the collection and use of information in accordance with this Policy. If you do not agree with the terms of this Policy, do not access the App.</p>
 
-        <h2>1. Information We Collect</h2>
-        <p>We collect information to provide and improve our services. The types of information we collect depend on how you use our App.</p>
+        <h2>1. Data Controller</h2>
+        <p>The developer, Varun Jain, is the data controller responsible for your personal information collected through the App.</p>
+        <p><strong>Contact:</strong> <a href="mailto:varunjainak123@gmail.com">varunjainak123@gmail.com</a></p>
 
-        <h3>1.1. Information You Provide Directly</h3>
+        <h2>2. Information We Collect ("What")</h2>
+        <p>We collect information that you provide to us and information that is collected automatically.</p>
+
+        <h3>2.1. Information You Provide Directly</h3>
         <ul>
-            <li><strong>Account Information:</strong> When you register, we collect personal identifiers, including your <strong>Name</strong> and <strong>Email Address</strong>.</li>
-            <li><strong>Profile Information:</strong> To personalize our services, you may voluntarily add information to your profile, such as your <strong>Education</strong>, <strong>Work Experience</strong>, <strong>Location</strong>, desired <strong>Job Role</strong>, and <strong>Skills</strong>.</li>
-            <li><strong>User-Generated Content:</strong> We collect and store the content you create within the App's features, including:
+            <li><strong>Personal Identifiers:</strong> 
                 <ul>
-                    <li>Your <strong>Chat History</strong> with the AI.</li>
-                    <li>Your practice answers for the <strong>HR and Technical Self-Assessment</strong> features.</li>
-                    <li>Your saved <strong>STAR Method stories</strong>.</li>
-                    <li>Your <strong>Company Research notes</strong>.</li>
-                    <li>Your <strong>Checklist tasks</strong> and associated <strong>Reminder Times</strong>.</li>
-                    <li>Your list of <strong>Saved (Bookmarked) Questions and Links</strong>.</li>
+                    <li><strong>Name & Email Address:</strong> Collected for account creation, authentication, and communication.</li>
+                </ul>
+            </li>
+            <li><strong>Professional & Profile Information (Optional):</strong> 
+                <ul>
+                    <li><strong>Education, Work Experience, Location, Job Role, Skills:</strong> Collected to personalize AI responses, provide career guidance, and find relevant job postings.</li>
+                </ul>
+            </li>
+            <li><strong>User-Generated Content:</strong> We collect and store data you create in the App, including:
+                <ul>
+                    <li><strong>Chat History:</strong> Your conversations with the AI.</li>
+                    <li><strong>Self-Assessment Data:</strong> Your practice answers for HR and Technical questions.</li>
+                    <li><strong>Notes & Saved Items:</strong> Your STAR Method stories, Company Research notes, and saved/bookmarked questions and links.</li>
+                    <li><strong>Checklist & Reminder Data:</strong> Your checklist tasks and any <strong>Reminder Times (as timestamps)</strong> you set for them.</li>
                 </ul>
             </li>
         </ul>
 
-        <h3>1.2. Information Collected Automatically</h3>
+        <h3>2.2. Information Collected Automatically</h3>
         <ul>
-            <li><strong>Audio Data (Voice Recordings):</strong> We collect audio recordings *only* when you actively use the voice input (microphone) feature. This data is sent to our backend for transcription and is **deleted immediately after processing**. It is not stored.</li>
-            <li><strong>Usage and Device Data:</strong> We use services like Firebase Analytics to collect information about your device (e.g., model, OS version) and how you interact with our App (e.g., features used, session duration). This data is often aggregated and anonymized.</li>
-            <li><strong>Crash Reports:</strong> We use Firebase Crashlytics to automatically collect reports on app crashes, including device state and stack traces, to help us diagnose and fix bugs.</li>
+            <li><strong>Audio Data (Voice Recordings):</strong> 
+                <ul>
+                    <li><strong>Collection:</strong> We collect audio data *only* when you actively press the microphone button to use voice input.</li>
+                    <li><strong>Use:</strong> This data is sent to our backend, transcribed into text, and the text is sent to the chatbot.</li>
+                    <li><strong>Retention:</strong> The audio file itself is **not stored** and is deleted from our server's memory immediately after transcription.</li>
+                </ul>
+            </li>
+            <li><strong>App Diagnostics & Analytics:</strong>
+                <ul>
+                    <li><strong>Crash Data (Firebase Crashlytics):</strong> We collect crash logs and diagnostic information to identify and fix bugs.</li>
+                    <li><strong>Performance & Usage Data (Firebase Analytics):</strong> We collect aggregated, anonymized data on feature usage, session times, and user interaction patterns to understand how the App is used and how to improve it.</li>
+                </ul>
+            </li>
         </ul>
 
-        <h2>2. How We Use Your Information (Purpose of Collection)</h2>
-        <p>We use your information for the following purposes, which are necessary for app functionality, personalization, and analytics:</p>
+        <h2>3. How We Use Your Information ("Why")</h2>
+        <p>Our primary purpose for collecting data is to provide and improve our service. This includes:</p>
         <ul>
-            <li><strong>To Provide and Operate the App:</strong> To create your account, authenticate you, store your notes and saved items, and run the core features.</li>
-            <li><strong>To Personalize Your Experience:</strong> To use your profile (skills, job role) to generate personalized AI responses, provide relevant job recommendations, and create custom study guides.</li>
-            <li><strong>To Power AI Features:</strong> To send your chat messages and self-assessment answers to our AI partners to generate responses and feedback.</li>
-            <li><strong>To Enable App Features:</strong> To transcribe your voice, find job listings from APIs, and schedule the task reminders you set.</li>
-            <li><strong>To Communicate With You:</strong> To send notifications for chat replies or deliver your scheduled alarms and reminders.</li>
-            <li><strong>To Improve and Secure Our App:</strong> To analyze usage trends, fix bugs, and prevent fraudulent activity.</li>
+            <li><strong>App Functionality:</strong> To authenticate you, save your progress, and enable core features like the checklist, note-taking, and saved items.</li>
+            <li><strong>App Personalization:</strong> To use your profile data (skills, job role) to tailor AI chat responses, provide relevant job listings, and generate custom study guides.</li>
+            <li><strong>AI Features:</strong> To provide your text queries and necessary context (like chat history or practice answers) to our AI partners (e.g., OpenAI) to generate responses and feedback.</li>
+            <li><strong>Communications:</strong> To deliver notifications you request, such as chat replies when the app is in the background or scheduled task alarms.</li>
+            <li><strong>Analytics and Improvement:</strong> To analyze crash reports and usage data to improve app stability, performance, and user experience.</li>
         </ul>
 
-        <h2>3. How and Why We Share Your Information (Third-Party Data Sharing)</h2>
-        <p>We do not sell your personal data. We only share information with the following trusted third-party service providers as necessary to operate our App:</p>
+        <h2>4. Data Sharing with Third Parties ("Who")</h2>
+        <p>We do not sell, trade, or rent your personal information to third parties for marketing purposes. We only share data with the following trusted service providers (sub-processors) who are contractually obligated to protect it and use it only for the services they provide to us.</p>
         
-        <table style="width:100%; border-collapse: collapse;" border="1">
-            <tr style="background-color: #eee;">
-                <th style="padding: 8px; text-align: left;">Service Provider</th>
-                <th style="padding: 8px; text-align: left;">Data Shared</th>
-                <th style="padding: 8px; text-align: left;">Purpose</th>
-            </tr>
-            <tr>
-                <td style="padding: 8px;"><strong>Backend Host</strong> (e.g., Render)</td>
-                <td style="padding: 8px;">Profile Data, User Content, Queries</td>
-                <td style="padding: 8px;">To host our core application logic that connects the app to all other services.</td>
-            </tr>
-            <tr>
-                <td style="padding: 8px;"><strong>Firebase (Google)</strong></td>
-                <td style="padding: 8px;">Email, Name, Profile Data, All User-Generated Content, Usage Data</td>
-                <td style="padding: 8px;">For user authentication, secure database storage (Firestore), crash reporting, and analytics.</td>
-            </tr>
-            <tr>
-                <td style="padding: 8px;"><strong>AI Providers</strong> (e.g., OpenAI, Google Gemini)</td>
-                <td style="padding: 8px;">Chat messages, Chat history (for context), Self-Assessment answers</td>
-                <td style="padding: 8px;">To generate all AI-powered chat responses and feedback. We do not send your name or email.</td>
-            </tr>
-            <tr>
-                <td style="padding: 8px;"><strong>Speech-to-Text</strong> (e.g., Google Cloud)</td>
-                <td style="padding: 8px;">Audio Recordings (temporary)</td>
-                <td style="padding: 8px;">To transcribe your voice input into text. Audio is deleted immediately after processing.</td>
-            </tr>
-            <tr>
-                <td style="padding: 8px;"><strong>Job Search APIs</strong> (e.g., Jsearch)</td>
-                <td style="padding: 8px;">Non-identifying search queries (e.g., "Software Engineer in New York")</td>
-                <td style="padding: 8px;">To fetch relevant, real-time job listings.</td>
-            </tr>
+        <table>
+            <thead>
+                <tr style="background-color: #eee;">
+                    <th style="padding: 10px;">Service Provider</th>
+                    <th style="padding: 10px;">Data Shared</th>
+                    <th style="padding: 10px;">Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 10px;"><strong>Backend Host</strong> (e.g., Render)</td>
+                    <td style="padding: 10px;">Profile Data, User Content, Queries, Audio Data (temporary)</td>
+                    <td style="padding: 10px;">To host our core application API that processes all requests and connects to other services.</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><strong>Firebase (Google)</strong></td>
+                    <td style="padding: 10px;">Email, Name, Profile Data, All User-Generated Content, Usage & Crash Data</td>
+                    <td style="padding: 10px;">For user authentication, secure database storage (Firestore), crash reporting, and analytics.</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><strong>AI Providers</strong> (e.g., OpenAI, Google)</td>
+                    <td style="padding: 10px;">Text inputs (chat messages, practice answers) and contextual data (chat history). We do not send your name or email.</td>
+                    <td style="padding: 10px;">To generate all AI-powered chat responses and feedback.</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><strong>Speech-to-Text Services</strong> (e.g., Google Cloud)</td>
+                    <td style="padding: 10px;">Audio Recordings (temporary, not stored)</td>
+                    <td style="padding: 10px;">To transcribe your voice input into text. Audio is deleted immediately after processing.</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><strong>Job Search APIs</strong> (e.g., Jsearch)</td>
+                    <td style="padding: 10px;">Non-identifying search queries (e.g., "Software Engineer in New York") and relevant skills.</td>
+                    <td style="padding: 10px;">To fetch relevant, real-time job listings.</td>
+                </tr>
+            </tbody>
         </table>
         
-        <p style="margin-top: 15px;">We may also disclose your information if required by law, such as in response to a subpoena or legal process, or to protect our rights and the safety of our users.</p>
+        <p style="margin-top: 15px;"><strong>Legal Disclosure:</strong> We may disclose your information if required to do so by law or in the good faith belief that such action is necessary to (a) comply with a legal obligation, (b) protect and defend our rights or property, (c) act in urgent circumstances to protect the personal safety of users of the App, or (d) protect against legal liability.</p>
 
-        <h2>4. App Permissions Explained</h2>
+        <h2>5. App Permissions Explained</h2>
         <p>Our App requests the following permissions to enable specific features:</p>
         <ul>
             <li class="permission-item">
                 <strong>Internet (android.permission.INTERNET):</strong>
-                Required for all network activity, including logging in, communicating with our backend, fetching AI responses, and loading job data.
+                <strong>Why:</strong> Required for all network activity, including logging in, syncing your data, communicating with our backend, fetching AI responses, and loading job data.
             </li>
             <li class="permission-item">
                 <strong>Microphone (android.permission.RECORD_AUDIO):</strong>
-                Required *only* if you use the voice input (microphone) feature. This allows the App to capture your speech for transcription.
+                <strong>Why:</strong> Required *only* if you choose to use the voice input (microphone) feature. This allows the App to capture your speech for transcription. If you do not grant this, only the voice feature will be disabled.
             </li>
             <li class="permission-item">
                 <strong>Notifications (android.permission.POST_NOTIFICATIONS):</strong>
-                (On Android 13+) Allows the App to send you notifications for chat replies (when the app is in the background) and for task reminders from your checklist.
+                <strong>Why:</strong> (On Android 13+) Allows the App to send you helpful notifications, such as when you receive a new chat reply (if the app is in the background) or when a task reminder you set is due.
             </li>
             <li class="permission-item">
                 <strong>Set Exact Alarms (android.permission.SCHEDULE_EXACT_ALARM):</strong>
-                (On Android 12+) This permission is required *only* if you use the "Set Reminder" feature in the checklist. It allows the app to schedule and trigger your task reminders reliably.
+                <strong>Why:</strong> (On Android 12+) This permission is required *only* if you use the "Set Reminder" feature in the checklist. It is necessary to ensure your task reminders can trigger reliably at the exact time you set, even if the device is idle.
             </li>
         </ul>
 
-        <h2>5. Data Security</h2>
-        <p>We are committed to protecting your data. We use industry-standard measures, including:</p>
+        <h2>6. Data Security</h2>
+        <p>We are committed to protecting your data. We use commercially reasonable administrative, technical, and physical security measures to safeguard your information. This includes:</p>
         <ul>
             <li><strong>Encryption in Transit:</strong> All data transmitted between your device and our servers is encrypted using <strong>HTTPS (TLS/SSL)</strong>.</li>
-            <li><strong>Encryption at Rest:</strong> Your data (such as profile information, chat history, and notes) is stored in our database (Firebase Firestore) in an encrypted state.</li>
+            <li><strong>Encryption at Rest:</strong> Your personal data (such as profile information, chat history, and notes) is stored in our database (Firebase Firestore) in an encrypted state on the server.</li>
+            <li><strong>Secure Authentication:</strong> We use Firebase Authentication to securely manage user login and sessions.</li>
         </ul>
-        <p>While we take reasonable steps to secure your information, no electronic storage or transmission is 100% secure. We cannot guarantee absolute security.</p>
+        <p>While we have taken robust steps, please be aware that no security measures are perfect or impenetrable, and we cannot guarantee absolute security.</p>
 
-        <h2>6. Data Retention and Deletion Rights</h2>
-        <p><strong>Retention:</strong> We retain your Personal Data for as long as your account is active or as necessary to provide you with our services.</p>
-        <p><strong>Deletion:</strong> You have the right to request the deletion of your account and all associated personal data. You can do this by:
+        <h2>7. Your Rights and Data Choices</h2>
+        <p>You have rights regarding your personal data. These include:</p>
+        <ul>
+            <li><strong>Right to Access:</strong> You can request a copy of the personal data we hold about you.</li>
+            <li><strong>Right to Rectification:</strong> You can access and update your profile information (name, skills, etc.) directly within the App's profile/settings section at any time.</li>
+            <li><strong>Right to Erasure (Deletion):</strong> You have the right to request the deletion of your account and all associated personal data. See Section 8 for instructions.</li>
+            <li><strong>Right to Portability:</strong> You can request that we provide your data in a structured, commonly used, and machine-readable format.</li>
+            <li><strong>Right to Withdraw Consent:</strong> You can withdraw consent for optional data processing, such as by revoking the microphone or notification permissions in your device settings.</li>
+        </ul>
+        <p>To exercise any of these rights, please contact us at <a href="mailto:varunjainak123@gmail.com">varunjainak123@gmail.com</a>.</p>
+
+        <h2>8. Data Retention and Deletion</h2>
+        <p><strong>Retention:</strong> We retain your Personal Data for as long as your account is active or as necessary to provide you with our services and comply with our legal obligations.</p>
+        <p><strong>Deletion Process:</strong> You can request the deletion of your account and all associated personal data at any time by:
             <ol>
-                <li>Navigating to the <strong>"Profile" or "Settings"</strong> section within the App and selecting the "Delete Account" option.</li>
-                <li>Contacting us directly at the email address provided below to request deletion.</li>
+                <li>Navigating to the <strong>"Profile" or "Settings"</strong> section within the App and selecting the <strong>"Delete Account"</strong> option.</li>
+                <li>Contacting us directly at our support email to request deletion.</li>
             </ol>
         </p>
-        <p>Upon receiving a valid request, we will permanently delete your personal data from our active systems within a reasonable timeframe, subject to any legal retention requirements.</p>
+        <p>Upon receiving a deletion request, we will permanently delete your personal data from our active systems and databases within a reasonable timeframe (e.g., 30 days). Data may persist in encrypted, isolated backups for a limited period (e.g., up to 90 days) before being automatically and permanently cycled out.</p>
 
-        <h2>7. International Data Transfers</h2>
-        <p>Your information, including Personal Data, may be transferred to—and maintained on—computers located outside of your state, province, or country. These data protection laws may differ from those in your jurisdiction. By using the App, you consent to this transfer.</p>
+        <h2>9. Children's Privacy</h2>
+        <p>Our services are not intended for or directed to individuals under the age of 13 (or the relevant age of digital consent in your region). We do not knowingly collect personal information from children. If we become aware that we have inadvertently collected such information, we will take immediate steps to delete it.</p>
+        
+        <h2>10. Governing Law</h2>
+        <p>This Privacy Policy and any disputes related thereto shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law provisions.</p>
 
-        <h2>8. Children's Privacy</h2>
-        <p>Our services are not directed to individuals under the age of 13. We do not knowingly collect personal information from children. If we become aware that we have collected data from a child without parental consent, we will take steps to delete that information.</p>
+        <h2>11. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for legal or operational reasons. We will notify you of any material changes by posting the new policy within the App and updating the "Last Updated" date. Your continued use of the App after such changes constitutes your acceptance of the new policy.</p>
 
-        <h2>9. Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new policy within the App and updating the "Last Updated" date. Your continued use of the App after such changes constitutes your acceptance of the new policy.</p>
-
-        <h2>10. Contact Us</h2>
+        <h2>12. Contact Us</h2>
         <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:</p>
         <p><strong>Varun Jain</strong><br>
         <a href="mailto:varunjainak123@gmail.com">varunjainak123@gmail.com</a></p>
